@@ -7,9 +7,6 @@
         Title="AvaloniaExpanderTest">
     <Grid RowDefinitions="Auto,Auto,Auto,Auto" x:Name="mGrid">
         <Expander x:Name="mExpander1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="0" ExpandDirection="Down" Header="Row1">
-            <Expander.ContentTransition>
-                <PageSlide Duration="700" Orientation="Vertical"/>
-            </Expander.ContentTransition>
             <DockPanel Background="AliceBlue">
                 <TextBlock Text="Header" DockPanel.Dock="Top"></TextBlock>
                 <TextBox AcceptsReturn="True"></TextBox>
