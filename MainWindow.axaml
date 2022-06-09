@@ -3,28 +3,29 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="550"
+        Width="300"
         x:Class="AvaloniaExpanderTest.MainWindow"
         Title="AvaloniaExpanderTest">
     <Grid RowDefinitions="Auto,Auto,Auto,Auto" x:Name="mGrid">
-        <Expander x:Name="mExpander1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="0" ExpandDirection="Down" Header="Row1">
+        <Expander BorderThickness="0 1 0 0" CornerRadius="0" x:Name="mExpander1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="0" ExpandDirection="Down" Header="Row1">
             <DockPanel Background="AliceBlue">
                 <TextBlock Text="Header" DockPanel.Dock="Top"></TextBlock>
                 <TextBox AcceptsReturn="True"></TextBox>
             </DockPanel>
         </Expander>
-        <Expander x:Name="mExpander2" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="1" Header="Row2">
+        <Expander BorderThickness="0 1 0 0" CornerRadius="0" x:Name="mExpander2" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="1" Header="Row2">
             <DockPanel Background="AliceBlue">
                 <TextBlock Text="Header" DockPanel.Dock="Top"></TextBlock>
                 <TextBox AcceptsReturn="True"></TextBox>
             </DockPanel>
         </Expander>
-        <Expander x:Name="mExpander3" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="2" Header="Row3">
+        <Expander BorderThickness="0 1 0 0" CornerRadius="0" x:Name="mExpander3" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="2" Header="Row3">
             <DockPanel Background="AliceBlue">
                 <TextBlock Text="Header" DockPanel.Dock="Top"></TextBlock>
                 <TextBox AcceptsReturn="True"></TextBox>
             </DockPanel>
         </Expander>
-        <Expander x:Name="mExpander4" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="3" Header="Row4">
+        <Expander BorderThickness="0 1 0 1" CornerRadius="0" x:Name="mExpander4" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="3" Header="Row4">
             <DockPanel Background="AliceBlue">
                 <TextBlock Text="Header" DockPanel.Dock="Top"></TextBlock>
                 <TextBox AcceptsReturn="True"></TextBox>
