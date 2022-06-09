@@ -6,7 +6,7 @@
         Width="300"
         x:Class="AvaloniaExpanderTest.MainWindow"
         Title="AvaloniaExpanderTest">
-    <Grid RowDefinitions="Auto,Auto,Auto,Auto" x:Name="mGrid">
+    <Grid UseLayoutRounding="False" RowDefinitions="Auto,Auto,Auto,Auto" x:Name="mGrid">
         <Expander BorderThickness="0 1 0 0" CornerRadius="0" x:Name="mExpander1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Row="0" ExpandDirection="Down" Header="Row1">
             <DockPanel Background="AliceBlue">
                 <TextBlock Text="Header" DockPanel.Dock="Top"></TextBlock>
